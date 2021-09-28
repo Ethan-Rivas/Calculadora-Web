@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Digital";
-    src: url("./fonts/digital-7.ttf");
+    src: url("../fonts/digital-7.ttf");
 }
 
 * {
@@ -24,7 +24,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
-    background-image: url(./img/background.jpg);
+    background-image: url(../img/background.jpg);
     padding: 15px;
     border-radius: 32px;
     border: 2px solid #dbe0e4;

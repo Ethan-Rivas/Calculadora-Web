@@ -73,7 +73,7 @@ class Display {
 
     calcular() {
         if (this.tipoOperacion === 'dividir') {
-          if (this.valorAnterior == '0' || this.valorActual == '0') {
+          if (this.valorAnterior == '0' || this.valorActual == '0' || this.valorActual == '0.') {
             this.valorActual = 'No dividir entre 0';
             return
           }
